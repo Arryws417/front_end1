@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labs Page</title>
+    <link rel="icon" type="image" href="img/sdn_ilustration.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+      <div class="topnav" id="myTopnav">
+         <a href="home.html" class="active">Home</a>
+         <a href="project.html">Projects</a>
+         <a href="labs">Labs</a>
+         <a href="about.html">About</a>
+         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+           <i class="fa fa-bars"></i>
+         </a>
+       </div>
+       <script>
+       function myFunction() {
+         var x = document.getElementById("myTopnav");
+         if (x.className === "topnav") {
+           x.className += " responsive";
+         } else {
+           x.className = "topnav";
+         }
+       }
+       </script> 
+      <div class="hero-image">
+        <div class="hero-text">
+           <h1>Hello I'am Arry Wiandana Syahputra</h1>
+           <p>I'm a Engineer & Developers</p>
+           <p>Telco | Network | Web Dev</p>
+           <button>Hire me</button>
+         </div>
+     </div>
+     <div class="project-list">
+        <h2><span>My Labs</span></h2>
+     </div>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/pBZs_Py-1_0" title="YouTube video player" frameborder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
